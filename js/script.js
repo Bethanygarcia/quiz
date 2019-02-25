@@ -47,18 +47,27 @@ $(document).ready(function() {
     
 
   function answer(totalScore){
-       var name = $("#name").val();
+   var imgSrc;
+        var name = $("#name").val();
+    
+    
        
       if (totalScore <= 4){
+      	imgSrc="https://media.giphy.com/media/ypQyYdjj6wy9a/giphy.gif";
+          $("#ending").attr("src",imgSrc);
           return name + " your house is Stark!";
       }
       
      else if (totalScore >4 && totalScore <=  6){
+     	imgSrc="https://media.giphy.com/media/qEou3YnK55nXO/giphy.gif";
+     	$("#ending").attr("src",imgSrc);
           return name+ " your house is Lannister!";
           
      }
      
      else if(totalScore> 6){
+   imgSrc= "https://i.imgur.com/8D1ZZrE.gif?noredirect";
+   $("#ending").attr("src",imgSrc);
          return name + " your house is Targaryen!";
      }
       
