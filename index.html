@@ -9,33 +9,37 @@
 <body>
   <div class="header">
     <div><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png"></div>
-    <div>News</div>
-    <div>Videos</div>
-    <div>Quizes</div>
-    <div>Tasty</div>
+    <div><a href="https://www.buzzfeednews.com/">News</a></div>
+    <div><a href="https://www.buzzfeed.com/videos">Videos</a></div>
+    <div><a href="https://www.buzzfeed.com/quizzes">Quizzes</a></div>
+    <div><a href="https://tasty.co/">Tasty</a></div>
     <input placeholder="Search">
   </div>
   </div>
-  <h1>Which house do you belong to? </h1>
+  <h1>Which House Do You Belong To? </h1>
   <p id="caption">Choose wisely squires! Your life depends on it. </p>
   <img id="tomImg" src= ./css/36701598955_2278ebaa9e_o.jpg>
   <a href="https://bethanygarcia.github.io/bethany.github.io/">Bethany Garcia</a>
   <div id="tom">Buzzfeed Destroyer</div>
   <img class="gameHouses" src="https://qph.fs.quoracdn.net/main-qimg-92ce7173d8eab69eec9cccd43553f722.webp">
   <div class="questions">
-    <h2 class="hello">Let's start with your name.</h2>
-    <input id="name" placeholder="Enter Your Name Here">
-    <h2> Command the army of the North, the Dothraki, or an annoying boy king?</h2>
-    <input id="question1" type= "radio" name="command" value="North"><label>North</label><br>
-    <input id="question1" type= "radio" name="command" value="Dothraki"><label>Dothraki</label><br>
-    <input id="question1" type= "radio" name="command" value="Boy King"><label>Boy King</label><br>
-    <h2> Would you rather slay a dragon or befriend a dragon?</h2>
-    <input id="question2" placeholder="Dead or friend">
-    <h2>Who is your favorite dragon?</h2>
-    <input id="question3" placeholder="Drogon, Rhaegal, Viserion">
+
+    <h2 class="firstt">Let's start with your name.</h2>
+    <center><input id="name" placeholder="Enter Your Name Here"></center>
+
+    <h2 class="firstt"> Command the army of the North, the Dothraki, or an annoying boy king?</h2>
+    <center><input id="question1" placeholder="North, Dothraki, or Boy King"></center>
+
+   <h2 class="firstt">Would you rather slay a dragon or befriend a dragon?</h2>
+   <center><input id="question2"placeholder="Slay or Befriend"></center>
+
+    <h2 class="firstt">Who is your favorite dragon?</h2>
+    <center><input id="question3" placeholder="Drogon, Rhaegal, or Viser"></center>
+
   </div>
+  <h2 id="word" class="firstt"></h2>
   <div class="result">
-    <button>Click here to be claimed under a House!</button>
+    <button id="clicker">Click here to be claimed under a House!</button>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src='js/script.js'></script>
